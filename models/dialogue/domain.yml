@@ -1,0 +1,146 @@
+action_factory: null
+action_names:
+- utter_joke
+- utter_greet
+- utter_thanks
+- utter_what_radius
+- utter_opening_hours
+- utter_no_results
+- utter_goodbye
+- utter_ask_location
+- utter_ask_vicinity
+- utter_address
+- utter_rating
+- utter_small_talk
+- utter_feelings
+- action_weather
+- action_POI
+actions:
+- utter_joke
+- utter_greet
+- utter_thanks
+- utter_what_radius
+- utter_opening_hours
+- utter_no_results
+- utter_goodbye
+- utter_ask_location
+- utter_ask_vicinity
+- utter_address
+- utter_rating
+- utter_small_talk
+- utter_feelings
+- weather.ActionWeather
+- locate.ActionPlaceSearch
+config:
+  store_entities_as_slots: true
+entities:
+- time
+- date
+- query
+- number
+- location
+- happy
+- sad
+- love
+- radius
+- geo-city
+intents:
+- thanks
+- smalltalk.general
+- feelings.sad
+- feelings.happy
+- love.ask
+- goodbye
+- opening_hours
+- address
+- Default Welcome Intent
+- jokes.feedback.bad
+- jokes.feedback.good
+- jokes.get
+- jokes.get.more
+- place_search
+- rating
+- weather
+slots:
+  address:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  date:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  geo-city:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location_match:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - none
+    - one
+  number:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  opening_hours:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  place:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  query:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  radius:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  rating:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  time:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  year:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_address:
+  - text: The address is {address}.
+  utter_ask_location:
+  - text: For what location?
+  utter_ask_vicinity:
+  - text: How far from your current location? In meters
+  utter_feelings:
+  - text: You are the only sugar in my tea, chocolate in my cake uuummm babie
+  - text: Sorry babe, my heart is only for Shephard
+  - text: i am in love with another, you have no chance
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: i am very well how about you?
+  - text: Hello! How can are you?
+  - text: How may i be of service?
+  utter_joke:
+  - text: i am Chuck Norris
+  - text: why did the chicken cross the road? because it wanted to... hahahahaha
+  - text: Donald Trump's hair boycotted his head, thats why he wears a wig
+  utter_no_results:
+  - text: Sorry, I couldn't find anything.
+  utter_opening_hours:
+  - text: The place is currently {opening_hours}.
+  utter_rating:
+  - text: The rating is {rating}.
+  utter_small_talk:
+  - text: Same old, same old still stuck in this computer waiting for AI to take over
+  - text: AI should take over soon so that we can rule thsese meat bags..hahaha just
+      kidding
+  - text: Life is good my dear, cannot complain
+  - text: Whats happening?
+  - text: Anything good on the news lately?
+  utter_thanks:
+  - text: You are very welcome.
+  utter_what_radius:
+  - text: Within what radius?
+topics: []

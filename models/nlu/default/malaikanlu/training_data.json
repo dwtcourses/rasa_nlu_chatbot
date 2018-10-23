@@ -1,0 +1,2117 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "What is an actual address?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "Where is this place?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "What is the address of this place?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "I am wondering how long does it take to get to the location?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "Does it take a long time to get to the place?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "Does it take long to get there?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "Can you please tell me the actual address?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "Where about is it?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "What is the location of it?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "Where is the place?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "Can you tell me the address?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "What's the address?"
+      },
+      {
+        "intent": "address",
+        "entities": [],
+        "text": "Where is it?"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "heya"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hello hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hi there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "greetings"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hey Malaika"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "long time no see"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "Hello Malaika"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hello again, Malaika"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "eita"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "What it do?"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Talk to you later."
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Awesome, bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Talk to you later!"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "not funny at all"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "your jokes are awful"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "I didn't like that joke"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "this is not funny"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "it was a stupid joke"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "stop your stupid jokes"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "please improve your sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "your jokes don't make me laugh"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "not funny"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "i didn't like this joke"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "that is not funny"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "stop"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "you have no sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "I wish you had a sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "I hate your jokes"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "stop it"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "it's a bad joke"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "you've lost your sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "your jokes are not funny"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "entities": [],
+        "text": "no"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "I like your sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "you're funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "your jokes are always funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "you are so funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "I love your jokes"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "I loved that joke"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "hahaha"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "haha you have a good sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "your jokes are good"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "nice joke"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "I do appreciate your sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "great joke"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "you have such a good sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "i do like your jokes"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "hilarious"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "good joke"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "ahha"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "nice one"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "nice joke I like it"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "it's the funniest joke ever"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "you are so witty"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "so funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "cool"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "lol"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "i like this one"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "ahahah lol"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "entities": [],
+        "text": "rofl"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "joke please"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "can you joke well"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me a scary joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me some jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "give me a joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me a joke please"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me the best joke ever"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "it would be nice to hear a joke right now"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "cheer me up"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "do you have any jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell a joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me a silly joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "can you tell jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me a funny joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me a funny joke please"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me a joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "I want some jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "I'm feeling glum make me laugh"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "can you tell me another joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "make me laugh"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "let's hear funny jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "do you joke well"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "can you tell me a joke please"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "some joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "any good jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me your funniest joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me a nice joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "let's joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "tell me a funny joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "more jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "I want a funny joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "random joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "joke"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "do you know any jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "entities": [],
+        "text": "I want to hear a joke"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "another joke"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "more jokes"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "ready for more"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "anything else"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "more fun"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "next joke "
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "tell me another joke"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "do you have more funny ones?"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "I'm ready for more jokes"
+      },
+      {
+        "intent": "jokes.get.more",
+        "entities": [],
+        "text": "yes another joke please"
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "Is the place still open today?"
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "Is the place open today?"
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "Tell me if it's open."
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "Can you tell me if it's open at the moment?"
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "If I go there now, is it still open?"
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "Is it open at the moment?"
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "Is it working?"
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "Is it currently open?"
+      },
+      {
+        "intent": "opening_hours",
+        "entities": [],
+        "text": "Is it still open?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "Chinese food",
+            "entity": "query"
+          }
+        ],
+        "text": "i want some Chinese food"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "pizza",
+            "entity": "query"
+          }
+        ],
+        "text": "where can i get a pizza?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "shopping",
+            "entity": "query"
+          }
+        ],
+        "text": "i want to go shopping"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "dancing",
+            "entity": "query"
+          }
+        ],
+        "text": "I want to go dancing"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "party",
+            "entity": "query"
+          }
+        ],
+        "text": "where can i go to party?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "clubing",
+            "entity": "query"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "tonight",
+            "entity": "date"
+          }
+        ],
+        "text": "I feel like clubing tonight"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "bank",
+            "entity": "query"
+          }
+        ],
+        "text": "Is there a bank anywhere close?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "cinema",
+            "entity": "query"
+          }
+        ],
+        "text": "- Looking for a cinema."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "bank",
+            "entity": "query"
+          },
+          {
+            "start": 31,
+            "end": 33,
+            "value": "25",
+            "entity": "number"
+          }
+        ],
+        "text": "I am looking for a bank within 25 meters from here."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "club",
+            "entity": "query"
+          }
+        ],
+        "text": "I am looking for a club nearby."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 44,
+            "value": "train station",
+            "entity": "query"
+          },
+          {
+            "start": 52,
+            "end": 55,
+            "value": "250",
+            "entity": "number"
+          }
+        ],
+        "text": "I am wondering if I can find a train station within 250 meters from here?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "museum",
+            "entity": "query"
+          }
+        ],
+        "text": "Please tell me is there a museum around?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "hair salon",
+            "entity": "query"
+          },
+          {
+            "start": 37,
+            "end": 39,
+            "value": "20",
+            "entity": "number"
+          }
+        ],
+        "text": "I am looking for a hair salon within 20 meters from here."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "mall",
+            "entity": "query"
+          }
+        ],
+        "text": "Where can I find the mall?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "shop",
+            "entity": "query"
+          }
+        ],
+        "text": "Where is the closest shop?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "market",
+            "entity": "query"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "500",
+            "entity": "number"
+          }
+        ],
+        "text": "Is there a market within 500 meters?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "museum",
+            "entity": "query"
+          },
+          {
+            "start": 39,
+            "end": 42,
+            "value": "100",
+            "entity": "number"
+          }
+        ],
+        "text": "Can you tell me where is the museum in 100 meters from where I am?"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "supermarket",
+            "entity": "query"
+          },
+          {
+            "start": 33,
+            "end": 35,
+            "value": "50",
+            "entity": "number"
+          }
+        ],
+        "text": "Looking for a supermarket within 50 meters from me."
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "cinema",
+            "entity": "query"
+          }
+        ],
+        "text": "Where is the closest cinema"
+      },
+      {
+        "intent": "place_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "restaurant",
+            "entity": "query"
+          }
+        ],
+        "text": "I am looking for a restaurant"
+      },
+      {
+        "intent": "rating",
+        "entities": [],
+        "text": "I want to know the rating"
+      },
+      {
+        "intent": "rating",
+        "entities": [],
+        "text": "What rating does it have?"
+      },
+      {
+        "intent": "rating",
+        "entities": [],
+        "text": "Do you know the rating of this place?"
+      },
+      {
+        "intent": "rating",
+        "entities": [],
+        "text": "Tell me the rating"
+      },
+      {
+        "intent": "rating",
+        "entities": [],
+        "text": "Does it have a good rating?"
+      },
+      {
+        "intent": "rating",
+        "entities": [],
+        "text": "What is the rating of this place?"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "Thank you very much"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "Thanks a bunch"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "Thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thanks"
+      },
+      {
+        "intent": "weather.context",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "What about tomorrow?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "weather for tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "weather forecast"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "What is the weather like?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "San Francisco",
+            "entity": "location"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "weather forecast in San Francisco tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "what is the weather today"
+      },
+      {
+        "intent": "weather",
+        "entities": [],
+        "text": "What's the weather supposed to be"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "What's the weather today?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 11,
+            "end": 18,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "What's the weather in London today?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Paris",
+            "entity": "location"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "Show me what's the weather in Paris"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "Vilnius",
+            "entity": "location"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "I wonder what is the weather in Vilnius right now?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "what is the weather?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "Tell me the weather"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Barcelona",
+            "entity": "location"
+          },
+          {
+            "start": 7,
+            "end": 14,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "Is the weather nice in Barcelona today?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 52,
+            "end": 59,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "I am going to London today and I wonder what is the weather out there?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Amsterdam",
+            "entity": "location"
+          },
+          {
+            "start": 48,
+            "end": 59,
+            "value": "temperature",
+            "entity": "weather"
+          }
+        ],
+        "text": "I am planning my trip to Amsterdam. What is the temperature out there?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Dublin",
+            "entity": "location"
+          },
+          {
+            "start": 12,
+            "end": 24,
+            "value": "temperature ",
+            "entity": "weather"
+          }
+        ],
+        "text": "Show me the temperature in Dublin, please"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Temperature",
+            "entity": "weather"
+          }
+        ],
+        "text": "Temperature in London"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Italy",
+            "entity": "location"
+          }
+        ],
+        "text": "Oh, sorry, in Italy"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilnius",
+            "entity": "location"
+          },
+          {
+            "start": 12,
+            "end": 19,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "Tell me the weather in Vilnius"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Italy",
+            "entity": "location"
+          },
+          {
+            "start": 4,
+            "end": 11,
+            "value": "weather",
+            "entity": "weather"
+          }
+        ],
+        "text": "The weather condition in Italy"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hello there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "greetings"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "eita"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hola"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "Malaika hello"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "howdy"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "Hello Malaika"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "long time no see"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "Malaika hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "I Welcome you"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hello again"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "a good day"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "hey there"
+      },
+      {
+        "intent": "Default Welcome Intent",
+        "entities": [],
+        "text": "heya"
+      },
+      {
+        "intent": "weather.context",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Friday",
+            "entity": "date"
+          }
+        ],
+        "text": "how will it be on Friday?"
+      },
+      {
+        "intent": "weather.context",
+        "entities": [],
+        "text": "i wonder how about Wednesday?"
+      },
+      {
+        "intent": "feelings.sad",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "sad",
+            "entity": "sad"
+          }
+        ],
+        "text": "hey i am feeling sad today?"
+      },
+      {
+        "intent": "feelings.sad",
+        "entities": [],
+        "text": "I am kind of unhappy"
+      },
+      {
+        "intent": "feelings.sad",
+        "entities": [
+          {
+            "start": 10,
+            "end": 28,
+            "value": "not going too well",
+            "entity": "sad"
+          }
+        ],
+        "text": "my day is not going too well right now"
+      },
+      {
+        "intent": "feelings.sad",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "unhappy",
+            "entity": "sad"
+          }
+        ],
+        "text": "i am feeling unhappy"
+      },
+      {
+        "intent": "feelings.happy",
+        "entities": [
+          {
+            "start": 9,
+            "end": 25,
+            "value": " going very well",
+            "entity": "happy"
+          }
+        ],
+        "text": "My day is going very well"
+      },
+      {
+        "intent": "feelings.happy",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "happy",
+            "entity": "happy"
+          }
+        ],
+        "text": "i am happy today"
+      },
+      {
+        "intent": "feelings.happy",
+        "entities": [
+          {
+            "start": 13,
+            "end": 25,
+            "value": " going great",
+            "entity": "happy"
+          }
+        ],
+        "text": "Everything is going great"
+      },
+      {
+        "intent": "love.ask",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": " love",
+            "entity": "love"
+          }
+        ],
+        "text": "do you love me, Malaika?"
+      },
+      {
+        "intent": "love.ask",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": " marry",
+            "entity": "love"
+          }
+        ],
+        "text": "will you marry me?"
+      },
+      {
+        "intent": "love.ask",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "lover",
+            "entity": "love"
+          }
+        ],
+        "text": "Will you be my lover?"
+      },
+      {
+        "intent": "love.ask",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "girlfriend",
+            "entity": "love"
+          }
+        ],
+        "text": "Do you want to be my girl friend?"
+      },
+      {
+        "intent": "love.ask",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "value": "love",
+            "entity": "love"
+          }
+        ],
+        "text": "Tell me that you love me"
+      },
+      {
+        "intent": "smalltalk.general",
+        "entities": [],
+        "text": "what is happening in your life?"
+      },
+      {
+        "intent": "smalltalk.general",
+        "entities": [],
+        "text": "anything fun happening?"
+      },
+      {
+        "intent": "smalltalk.general",
+        "entities": [],
+        "text": "do you have anything new you might want to share?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "hot",
+            "entity": "weather"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ],
+        "text": "Is it hot in Dublin?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "hot",
+            "entity": "weather"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "India",
+            "entity": "location"
+          }
+        ],
+        "text": "Is it hot in India today?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "sunny",
+            "entity": "weather"
+          }
+        ],
+        "text": "I wonder if it is sunny?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "raining",
+            "entity": "weather"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "Oslo",
+            "entity": "location"
+          }
+        ],
+        "text": "Is it raining in Oslo?"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "Really appreciate"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "I am grateful"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "Much appreciated"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Italy",
+            "entity": "location"
+          },
+          {
+            "start": 42,
+            "end": 45,
+            "value": "hot",
+            "entity": "weather"
+          }
+        ],
+        "text": "I want to visit Italy , i wonder if it is hot it is?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Scotland",
+            "entity": "location"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "temperature",
+            "entity": "weather"
+          }
+        ],
+        "text": "What is the temperature in Scotland"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "Namibia",
+            "entity": "location"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "cold",
+            "entity": "location"
+          }
+        ],
+        "text": "Do you know if it is cold in Namibia today?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "hot",
+            "entity": "weather"
+          },
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Zimbabwe",
+            "entity": "location"
+          }
+        ],
+        "text": "Zimbabwe is usually hot, i wonder if it is today?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "cold",
+            "entity": "weather"
+          }
+        ],
+        "text": "Is it cold outside?"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "true",
+        "synonyms": [
+          "every",
+          "each",
+          "all",
+          "all of",
+          "everywhere",
+          "everything"
+        ]
+      },
+      {
+        "value": "cellphone",
+        "synonyms": [
+          "phone",
+          "my phone",
+          "mobile",
+          "my mobile phone"
+        ]
+      },
+      {
+        "value": "car",
+        "synonyms": [
+          "my car",
+          "my bakkie",
+          "bakkie",
+          "truck",
+          "my truck"
+        ]
+      },
+      {
+        "value": "bmw",
+        "synonyms": [
+          "vw",
+          "benz",
+          "ford",
+          "posche",
+          "renault",
+          "audi",
+          "mazda",
+          "chrysler"
+        ]
+      },
+      {
+        "value": "bmw x5",
+        "synonyms": [
+          "bmw 1 series",
+          "3 series",
+          "720",
+          "735i",
+          "gusheshe",
+          "coupe",
+          "m2",
+          "m4",
+          "m6",
+          "i8",
+          "120i",
+          "x3",
+          "x4",
+          "116i",
+          "118i",
+          "140i",
+          "bmw 116i",
+          "bmw 120i",
+          "bmw x6"
+        ]
+      },
+      {
+        "value": "ford mustang",
+        "synonyms": [
+          "ford focus",
+          "ford f150"
+        ]
+      },
+      {
+        "value": "audi s5",
+        "synonyms": [
+          "audi a1",
+          "a2",
+          "a3",
+          "a4",
+          "a6",
+          "s3",
+          "s4",
+          "s6",
+          "a5",
+          "quattro",
+          "tts",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q7"
+        ]
+      },
+      {
+        "value": "vw golf",
+        "synonyms": [
+          "vw golf gti",
+          "glf 5",
+          "golf 6",
+          "golf 7"
+        ]
+      },
+      {
+        "value": "fire and theft",
+        "synonyms": [
+          "theft",
+          "fire"
+        ]
+      },
+      {
+        "value": "total cover",
+        "synonyms": [
+          "comprehensive cover"
+        ]
+      },
+      {
+        "value": "third party",
+        "synonyms": [
+          "liability insurence"
+        ]
+      },
+      {
+        "value": "opening",
+        "synonyms": [
+          "open"
+        ]
+      },
+      {
+        "value": "closing",
+        "synonyms": [
+          "close"
+        ]
+      },
+      {
+        "value": "low",
+        "synonyms": [
+          "minimum"
+        ]
+      },
+      {
+        "value": "high",
+        "synonyms": [
+          "maximum"
+        ]
+      },
+      {
+        "value": "cinema",
+        "synonyms": [
+          "movie",
+          "movie house"
+        ]
+      },
+      {
+        "value": "supermarket",
+        "synonyms": [
+          "shop",
+          "tuck shop",
+          "spaza"
+        ]
+      },
+      {
+        "value": "bank",
+        "synonyms": [
+          "atm"
+        ]
+      },
+      {
+        "value": "museum",
+        "synonyms": [
+          "gallery"
+        ]
+      },
+      {
+        "value": "club",
+        "synonyms": [
+          "clubing",
+          "partying"
+        ]
+      },
+      {
+        "value": "dancing",
+        "synonyms": [
+          "dance"
+        ]
+      },
+      {
+        "value": "weekdays",
+        "synonyms": [
+          "Weekdays",
+          "every weekday",
+          "only on weeekdays",
+          "every workday",
+          "on weekdays",
+          "monday to friday",
+          "workday",
+          "workdays",
+          "work days",
+          "working days",
+          "week days"
+        ]
+      },
+      {
+        "value": "Wednesdays",
+        "synonyms": [
+          "every Wednesday",
+          "each Wednesday"
+        ]
+      },
+      {
+        "value": "Mondays, Tuesdays, Wednesdays, Thursdays",
+        "synonyms": [
+          "every Monday, Tuesday, Wednesday and Thursday",
+          "on Mondays, Tuesdays, Wednesdays and Thursdays"
+        ]
+      },
+      {
+        "value": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays",
+        "synonyms": [
+          "every day except Sundays"
+        ]
+      },
+      {
+        "value": "Mondays, Tuesdays, Wednesdays",
+        "synonyms": [
+          "on Mondays, Tuesdays and Wednesdays",
+          "every Monday, Tuesday and Wednesday"
+        ]
+      },
+      {
+        "value": "Fridays",
+        "synonyms": [
+          "every Friday",
+          "each Friday"
+        ]
+      },
+      {
+        "value": "Thursdays",
+        "synonyms": [
+          "every Thursday",
+          "each Thursday"
+        ]
+      },
+      {
+        "value": "Mondays, Tuesdays",
+        "synonyms": [
+          "on Mondays and Tuesdays",
+          "every Monday and Tuesday",
+          "every Monday and every Tuesday"
+        ]
+      },
+      {
+        "value": "Mondays",
+        "synonyms": [
+          "every Monday",
+          "each Monday"
+        ]
+      },
+      {
+        "value": "Tuesdays",
+        "synonyms": [
+          "every Tuesday",
+          "each Tuesday"
+        ]
+      },
+      {
+        "value": "every day",
+        "synonyms": [
+          "everyday",
+          "every morning",
+          "each weekend",
+          "each morning",
+          "daily"
+        ]
+      },
+      {
+        "value": "Saturdays",
+        "synonyms": [
+          "every Saturday",
+          "each Saturday",
+          "for saturdays"
+        ]
+      },
+      {
+        "value": "Sundays",
+        "synonyms": [
+          "every Sunday",
+          "each Sunday"
+        ]
+      },
+      {
+        "value": "weekends",
+        "synonyms": [
+          "Weekends",
+          "every weekend",
+          "only on weekends"
+        ]
+      },
+      {
+        "value": "Wikipedia",
+        "synonyms": [
+          "Wiki"
+        ]
+      },
+      {
+        "value": "WolframAlpha",
+        "synonyms": [
+          "Wolfram Alpha",
+          "Wolfram"
+        ]
+      },
+      {
+        "value": "DuckDuckGo",
+        "synonyms": [
+          "Duck Duck Go"
+        ]
+      },
+      {
+        "value": "year 2015",
+        "synonyms": [
+          "year 1990",
+          "1965",
+          "year 1962",
+          "year 1955",
+          "year 1945",
+          "year 2007",
+          "year 2018"
+        ]
+      },
+      {
+        "value": "new",
+        "synonyms": [
+          "this year",
+          "early this year",
+          "beginning of this year"
+        ]
+      }
+    ]
+  }
+}

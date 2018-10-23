@@ -1,0 +1,37 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "geo-city",
+        "location",
+        "query",
+        "number"
+      ]
+    },
+    "action_POI": {
+      "slots": [
+        "rating",
+        "address",
+        "opening_hours",
+        "location_match"
+      ]
+    },
+    "action_weather": {
+      "slots": [
+        "geo-city"
+      ]
+    },
+    "utter_ask_location": {
+      "slots": [
+        "geo-city"
+      ]
+    }
+  },
+  "rasa_core": "0.8.2",
+  "max_history": 3,
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

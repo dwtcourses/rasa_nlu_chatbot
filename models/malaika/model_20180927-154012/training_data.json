@@ -1,0 +1,7168 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Tuesday",
+            "entity": "date-from"
+          },
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Monday",
+            "entity": "date-to"
+          }
+        ],
+        "text": "from Tuesday to Monday"
+      },
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "Monday",
+            "entity": "date-from"
+          }
+        ],
+        "text": "no the one on Monday"
+      },
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "10 am",
+            "entity": "time-to"
+          }
+        ],
+        "text": "to 10 am"
+      },
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "10 am",
+            "entity": "time-to"
+          }
+        ],
+        "text": "no to 10 am"
+      },
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "10 am",
+            "entity": "time-from"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "9 am",
+            "entity": "time-to"
+          }
+        ],
+        "text": "and from 10 am to 9 am"
+      },
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "Shape Of You",
+            "entity": "song"
+          }
+        ],
+        "text": "to Shape Of You"
+      },
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "every weekend",
+            "entity": "recurrence-to"
+          }
+        ],
+        "text": "to every weekend"
+      },
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "10 am",
+            "entity": "time-from"
+          }
+        ],
+        "text": "the one at 10 am"
+      },
+      {
+        "intent": "alarm.change - context:alarm-change",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "weekdays",
+            "entity": "recurrence-from"
+          },
+          {
+            "start": 17,
+            "end": 26,
+            "value": "every day",
+            "entity": "recurrence-to"
+          }
+        ],
+        "text": "from weekdays to every day"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "Gym",
+            "entity": "alarm-name"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Sports",
+            "entity": "alarm-name-to"
+          }
+        ],
+        "text": "rename my Gym alarm to Sports"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "4:00 am",
+            "entity": "time-from"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "5:30",
+            "entity": "time-to"
+          }
+        ],
+        "text": "move my 4:00 am alarm to 5:30"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "change the alarm music"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "8:30 am",
+            "entity": "time-to"
+          }
+        ],
+        "text": "I'd like to change my alarm to 8:30 am"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "daily",
+            "entity": "recurrence-from"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "every Sunday",
+            "entity": "recurrence-to"
+          }
+        ],
+        "text": "change my daily alarm recurrence to every Sunday"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "manage alarms"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "reschedule an alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "edit alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "edit the wake up time"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "tomorrow",
+            "entity": "date-from"
+          }
+        ],
+        "text": "edit my alarm for tomorrow"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "daily",
+            "entity": "recurrence-from"
+          }
+        ],
+        "text": "how can I modify my daily alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "how can I change the wake up music"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "Friday",
+            "entity": "date-from"
+          },
+          {
+            "start": 39,
+            "end": 47,
+            "value": "Saturday",
+            "entity": "date-to"
+          }
+        ],
+        "text": "could you move my alarm from Friday to Saturday"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 5,
+            "end": 17,
+            "value": "every Monday",
+            "entity": "recurrence-from"
+          },
+          {
+            "start": 27,
+            "end": 40,
+            "value": "every Tuesday",
+            "entity": "recurrence-to"
+          }
+        ],
+        "text": "edit every Monday alarm to every Tuesday"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "edit the wake up call song to Yellow Submarine"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "6:10",
+            "entity": "time-from"
+          }
+        ],
+        "text": "edit my 6:10 alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "change all my alarms"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "I'd like to reschedule all my alarms"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "3 pm",
+            "entity": "time-to"
+          }
+        ],
+        "text": "change my alarm to 3 pm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "6 pm",
+            "entity": "time-from"
+          },
+          {
+            "start": 29,
+            "end": 33,
+            "value": "7 pm",
+            "entity": "time-to"
+          }
+        ],
+        "text": "reschedule the 6 pm alarm to 7 pm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "Gym",
+            "entity": "alarm-name"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "10 pm",
+            "entity": "time-to"
+          }
+        ],
+        "text": "move my Gym alarm to 10 pm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Tuesday",
+            "entity": "date-from"
+          }
+        ],
+        "text": "change my Tuesday alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "8:45",
+            "entity": "time-from"
+          }
+        ],
+        "text": "change the 8:45 alarm music to Yellow Submarine"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "07:45",
+            "entity": "time-from"
+          }
+        ],
+        "text": "I'd like to customize my 07:45 alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "daily",
+            "entity": "recurrence-from"
+          },
+          {
+            "start": 29,
+            "end": 41,
+            "value": "every Monday",
+            "entity": "recurrence-to"
+          },
+          {
+            "start": 45,
+            "end": 49,
+            "value": "9 am",
+            "entity": "time-to"
+          }
+        ],
+        "text": "reschedule my daily alarm to every Monday at 9 am"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "8:30",
+            "entity": "time-from"
+          }
+        ],
+        "text": "could you change the 8:30 alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "5 am",
+            "entity": "time-from"
+          },
+          {
+            "start": 34,
+            "end": 38,
+            "value": "7 am",
+            "entity": "time-to"
+          }
+        ],
+        "text": "I need to change my 5 am alarm to 7 am"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Friday",
+            "entity": "date-from"
+          },
+          {
+            "start": 26,
+            "end": 30,
+            "value": "6 pm",
+            "entity": "time-from"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "Saturday",
+            "entity": "date-to"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "7 pm",
+            "entity": "time-to"
+          }
+        ],
+        "text": "move my alarm from Friday 6 pm to Saturday 7 pm"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "edit the ringtone for my alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "text": "I'd like to customize my alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "Work",
+            "entity": "alarm-name"
+          }
+        ],
+        "text": "rename my Work alarm"
+      },
+      {
+        "intent": "alarm.change",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "6 am",
+            "entity": "time-from"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "7 am",
+            "entity": "time-to"
+          }
+        ],
+        "text": "change 6 am alarm to 7 am"
+      },
+      {
+        "intent": "alarm.check - context:alarm-check",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "every Monday",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "and for every Monday"
+      },
+      {
+        "intent": "alarm.check - context:alarm-check",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "check all"
+      },
+      {
+        "intent": "alarm.check - context:alarm-check",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "and the one for tomorrow"
+      },
+      {
+        "intent": "alarm.check - context:alarm-check",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "9 am",
+            "entity": "time"
+          }
+        ],
+        "text": "and for 9 am"
+      },
+      {
+        "intent": "alarm.check - context:alarm-check",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "every day",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "for every day as well"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "alarms list"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "weekly",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "is my weekly alarm set"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "6 am",
+            "entity": "time"
+          }
+        ],
+        "text": "check my alarm for 6 am"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "what time did you set the alarm for"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "what time is my alarm set for"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "show my alarms"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "6:30",
+            "entity": "time"
+          }
+        ],
+        "text": "did you set that alarm for 6:30"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "I'd like to see my alarms"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 30,
+            "end": 46,
+            "value": "tomorrow morning",
+            "entity": "time-period"
+          }
+        ],
+        "text": "how many alarms do I have for tomorrow morning"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 34,
+            "end": 41,
+            "value": "Mondays",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "at what time do you wake me up on Mondays"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "my alarms"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "9:30 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "check alarms at 9:30 pm"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "do I have any alarms set"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "show my alarms for tomorrow"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "June 22",
+            "entity": "date"
+          }
+        ],
+        "text": "do I have any alarms set for June 22"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "check all my alarms"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "8 am",
+            "entity": "time"
+          }
+        ],
+        "text": "my alarms set for 8 am"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "daily",
+            "entity": "recurrence"
+          },
+          {
+            "start": 26,
+            "end": 31,
+            "value": "10 am",
+            "entity": "time"
+          }
+        ],
+        "text": "is my daily alarm set for 10 am"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "is my alarm set"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "all my alarms"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "Work",
+            "entity": "alarm-name"
+          }
+        ],
+        "text": "is my Work alarm on"
+      },
+      {
+        "intent": "alarm.check",
+        "text": "for what time do I have my alarm set"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "daily",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "I'd like to see my daily alarms"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "show me all my alarms"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "Gym",
+            "entity": "alarm-name"
+          }
+        ],
+        "text": "show my alarm called Gym"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 33,
+            "end": 34,
+            "value": "9",
+            "entity": "time"
+          }
+        ],
+        "text": "do I have any alarms tomorrow at 9"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "next week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "alarms list for next week"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "10 am",
+            "entity": "time"
+          }
+        ],
+        "text": "did you set the alarm for 10 am"
+      },
+      {
+        "intent": "alarm.check",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "pull up the list of all my alarms"
+      },
+      {
+        "intent": "alarm.remove - context:alarm-remove",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "am",
+            "entity": "time"
+          }
+        ],
+        "text": "remove for 7 am"
+      },
+      {
+        "intent": "alarm.remove - context:alarm-remove",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "remove all of them"
+      },
+      {
+        "intent": "alarm.remove - context:alarm-remove",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "delete all"
+      },
+      {
+        "intent": "alarm.remove - context:alarm-remove",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "Saturday",
+            "entity": "date"
+          }
+        ],
+        "text": "the one for Saturday too"
+      },
+      {
+        "intent": "alarm.remove - context:alarm-remove",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "9 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "now the one for 9 pm"
+      },
+      {
+        "intent": "alarm.remove - context:alarm-remove",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "every Sunday",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "turn off the one for every Sunday"
+      },
+      {
+        "intent": "alarm.remove - context:alarm-remove",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "every Monday",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "erase for every Monday too"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "10 am",
+            "entity": "time"
+          }
+        ],
+        "text": "turn off the alarm for 10 am"
+      },
+      {
+        "intent": "alarm.remove",
+        "text": "I'd like to remove my alarms"
+      },
+      {
+        "intent": "alarm.remove",
+        "text": "turn off alarms"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "tomorrow's",
+            "entity": "date"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "8 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "cancel tomorrow's 8 pm alarm"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "turn off all my alarms"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 21,
+            "end": 37,
+            "value": "tomorrow morning",
+            "entity": "time-period"
+          }
+        ],
+        "text": "remove my alarms for tomorrow morning"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Mondays",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "don't wake me up on Mondays"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "6 am",
+            "entity": "time"
+          }
+        ],
+        "text": "remove 6 am alarm"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 18,
+            "end": 21,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "erase the list of all my alarms"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "all",
+            "entity": "all"
+          }
+        ],
+        "text": "remove all my alarms"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Work",
+            "entity": "alarm-name"
+          }
+        ],
+        "text": "disable my Work alarm"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 20,
+            "end": 24,
+            "value": "5 am",
+            "entity": "time"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "next week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "don't wake me up at 5 am next week"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "8 am",
+            "entity": "time"
+          }
+        ],
+        "text": "remove my alarms set for 8 am"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "weekly",
+            "entity": "recurrence"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "10 am",
+            "entity": "time"
+          }
+        ],
+        "text": "I'd like to turn off the weekly alarm at 10 am"
+      },
+      {
+        "intent": "alarm.remove",
+        "text": "remove alarm"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "next week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "clear the alarms list for next week"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "switch off my alarms for tomorrow"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "Gym",
+            "entity": "alarm-name"
+          }
+        ],
+        "text": "delete the alarm called Gym"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "weekly",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "turn off my weekly alarm"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "value": "9",
+            "entity": "time"
+          }
+        ],
+        "text": "remove alarms for tomorrow at 9"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "all",
+            "entity": "all"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "8 am",
+            "entity": "time"
+          }
+        ],
+        "text": "remove all my alarms at 8 am"
+      },
+      {
+        "intent": "alarm.remove",
+        "text": "could you erase my alarms list"
+      },
+      {
+        "intent": "alarm.remove",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "6 am",
+            "entity": "time"
+          }
+        ],
+        "text": "can you remove my 6 am alarm please"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:another one",
+        "text": "another one"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:another one",
+        "text": "set another one"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:another one",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "10 am",
+            "entity": "time"
+          }
+        ],
+        "text": "another one for 10 am"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:another one",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "another one for tomorrow"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:another one",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "every Monday",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "another for every Monday"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:another one",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "Sunday",
+            "entity": "date"
+          },
+          {
+            "start": 18,
+            "end": 22,
+            "value": "8 am",
+            "entity": "time"
+          }
+        ],
+        "text": "and for Sunday at 8 am"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:another one",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "every day",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "set another one for every day"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:recurrence",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "every Friday",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "set it for every Friday"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:recurrence",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "every day",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "repeat it every day"
+      },
+      {
+        "intent": "alarm.set - context:alarm - comment:recurrence",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "every Monday",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "I need it to be repeated every Monday"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 28,
+            "end": 32,
+            "value": "7 am",
+            "entity": "time"
+          },
+          {
+            "start": 33,
+            "end": 46,
+            "value": "every weekend",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "I'd like to set an alarm at 7 am every weekend"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "8 am",
+            "entity": "time"
+          }
+        ],
+        "text": "set alarm at 8 am in the morning"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "10 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "set new alarm for 10 pm"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "Work",
+            "entity": "alarm-name"
+          },
+          {
+            "start": 15,
+            "end": 23,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "9 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "set alarm Work tomorrow at 9 pm"
+      },
+      {
+        "intent": "alarm.set",
+        "text": "alarm"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "Gym",
+            "entity": "alarm-name"
+          },
+          {
+            "start": 25,
+            "end": 33,
+            "value": "weekdays",
+            "entity": "recurrence"
+          },
+          {
+            "start": 37,
+            "end": 39,
+            "value": "10",
+            "entity": "time"
+          }
+        ],
+        "text": "new alarm called Gym for weekdays at 10"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "Gym",
+            "entity": "alarm-name"
+          }
+        ],
+        "text": "new alarm called Gym"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "9 am",
+            "entity": "time"
+          }
+        ],
+        "text": "alarm for 9 am"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Cool Girl",
+            "entity": "song"
+          }
+        ],
+        "text": "wake me up with Cool Girl song"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 11,
+            "end": 21,
+            "value": "in 8 hours",
+            "entity": "time"
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "Let It Be",
+            "entity": "song"
+          },
+          {
+            "start": 40,
+            "end": 51,
+            "value": "The Beatles",
+            "entity": "artist"
+          }
+        ],
+        "text": "wake me up in 8 hours with Let It Be by The Beatles"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "every day",
+            "entity": "recurrence"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "7 am",
+            "entity": "time"
+          },
+          {
+            "start": 38,
+            "end": 42,
+            "value": "Jazz",
+            "entity": "genre"
+          }
+        ],
+        "text": "I want to wake every day at 7 am with Jazz music"
+      },
+      {
+        "intent": "alarm.set",
+        "text": "set an alarm"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "9 am",
+            "entity": "time"
+          }
+        ],
+        "text": "wake me up at 9 am"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "9 am",
+            "entity": "time"
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "Wednesday",
+            "entity": "date"
+          }
+        ],
+        "text": "set new alarm for 9 am on Wednesday"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 14,
+            "end": 15,
+            "value": "8",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 25,
+            "value": "every day",
+            "entity": "recurrence"
+          }
+        ],
+        "text": "wake me up at 8 every day"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 27,
+            "end": 31,
+            "value": "6 am",
+            "entity": "time"
+          }
+        ],
+        "text": "could you set an alarm for 6 am"
+      },
+      {
+        "intent": "alarm.set",
+        "text": "new alarm"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "weekdays",
+            "entity": "recurrence"
+          },
+          {
+            "start": 36,
+            "end": 40,
+            "value": "4 am",
+            "entity": "time"
+          }
+        ],
+        "text": "I need an alarm set for weekdays at 4 am"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "every day",
+            "entity": "recurrence"
+          },
+          {
+            "start": 24,
+            "end": 25,
+            "value": "6",
+            "entity": "time"
+          }
+        ],
+        "text": "wake me up every day at 6"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "every Monday",
+            "entity": "recurrence"
+          },
+          {
+            "start": 43,
+            "end": 47,
+            "value": "9 am",
+            "entity": "time"
+          }
+        ],
+        "text": "could you set an alarm for every Monday at 9 am"
+      },
+      {
+        "intent": "alarm.set",
+        "text": "could you set an alarm"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "10 am",
+            "entity": "time"
+          },
+          {
+            "start": 20,
+            "end": 28,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "set alarm for 10 am tomorrow"
+      },
+      {
+        "intent": "alarm.set",
+        "text": "wake me up"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "7 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "I'd like to set an alarm for 7 pm"
+      },
+      {
+        "intent": "alarm.set",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "tomorrow",
+            "entity": "date"
+          },
+          {
+            "start": 22,
+            "end": 26,
+            "value": "8 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "alarm for tomorrow at 8 pm"
+      },
+      {
+        "intent": "GetStockPrice",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "low",
+            "entity": "price_type"
+          },
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "The low price of Google"
+      },
+      {
+        "intent": "GetStockPrice",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Facebook",
+            "entity": "company_name"
+          }
+        ],
+        "text": "what is the stock price of Facebook?"
+      },
+      {
+        "intent": "GetStockPrice",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "opening",
+            "entity": "price_type"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Apple",
+            "entity": "company_name"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "last tuesday",
+            "entity": "date"
+          }
+        ],
+        "text": "what was the opening price of Apple last tuesday"
+      },
+      {
+        "intent": "GetStockPrice",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "closing",
+            "entity": "price_type"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "microsoft",
+            "entity": "company_name"
+          },
+          {
+            "start": 33,
+            "end": 52,
+            "value": "on december 25 2017",
+            "entity": "date"
+          }
+        ],
+        "text": "give me the closing of microsoft on december 25 2017"
+      },
+      {
+        "intent": "GetStockPrice",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "high",
+            "entity": "price_type"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "get me the high price of Google yesteday"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "ford",
+            "entity": "make"
+          },
+          {
+            "start": 19,
+            "end": 33,
+            "value": "from last year",
+            "entity": "year"
+          }
+        ],
+        "text": "quote me on a ford from last year"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": "2008",
+            "entity": "year"
+          },
+          {
+            "start": 26,
+            "end": 34,
+            "value": "chrysler",
+            "entity": "make"
+          }
+        ],
+        "text": "i want a quote for a 2008 chrysler pt-cruizer"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 19,
+            "end": 21,
+            "value": "vw",
+            "entity": "make"
+          },
+          {
+            "start": 22,
+            "end": 30,
+            "value": "golf gti",
+            "entity": "model"
+          }
+        ],
+        "text": "i want to insure a vw golf gti"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "new",
+            "entity": "age"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "phone",
+            "entity": "asset"
+          }
+        ],
+        "text": "insurance for a new phone"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "2 year old",
+            "entity": "age"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "benz",
+            "entity": "make"
+          }
+        ],
+        "text": "quotation for 2 year old benz"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "golf",
+            "entity": "make"
+          }
+        ],
+        "text": "quote me for a golf"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "samsung",
+            "entity": "asset"
+          }
+        ],
+        "text": "insurance for a samsung"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "bmw",
+            "entity": "make"
+          }
+        ],
+        "text": "i want to insure a bmw"
+      },
+      {
+        "intent": "Insure",
+        "text": "Can you quote me on a policy"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "car",
+            "entity": "asset"
+          }
+        ],
+        "text": "How much to ensure my car"
+      },
+      {
+        "intent": "Insure",
+        "text": "Quotation fo insurance policy"
+      },
+      {
+        "intent": "Insure",
+        "text": "Quotation fo policy"
+      },
+      {
+        "intent": "Insure",
+        "text": "Policy quotation"
+      },
+      {
+        "intent": "Insure",
+        "text": "Insurence quote"
+      },
+      {
+        "intent": "Insure",
+        "text": "I want a policy"
+      },
+      {
+        "intent": "Insure",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "phone",
+            "entity": "asset"
+          }
+        ],
+        "text": "I would like to insure my phone"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "please improve your sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "your jokes are awful"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "you've lost your sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "your jokes don't make me laugh"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "your jokes are not funny"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "i didn't like this joke"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "I didn't like that joke"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "that is not funny"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "stop it"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "stop"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "no"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "it's a bad joke"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "this is not funny"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "not funny"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "not funny at all"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "it was a stupid joke"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "I wish you had a sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "you have no sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "I hate your jokes"
+      },
+      {
+        "intent": "jokes.feedback.bad",
+        "text": "stop your stupid jokes"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "I like your sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "I love your jokes"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "nice one"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "I loved that joke"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "i do like your jokes"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "it's the funniest joke ever"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "i like this one"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "hilarious"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "lol"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "good joke"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "you are so witty"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "ahahah lol"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "your jokes are always funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "rofl"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "you are so funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "so funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "hahaha"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "ahha"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "cool"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "nice joke"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "you're funny"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "your jokes are good"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "nice joke I like it"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "you have such a good sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "haha you have a good sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "I do appreciate your sense of humor"
+      },
+      {
+        "intent": "jokes.feedback.good",
+        "text": "great joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "make me laugh"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "cheer me up"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me some jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "joke please"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "any good jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me a joke please"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "let's hear funny jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "can you tell me a joke please"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "more jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "I want a funny joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "random joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me a joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "some joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me the best joke ever"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "do you joke well"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "give me a joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "let's joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me a funny joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "I'm feeling glum make me laugh"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell a joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me a scary joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me a funny joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "can you tell jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "it would be nice to hear a joke right now"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "can you joke well"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "do you know any jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me a silly joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "do you have any jokes"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me a funny joke please"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me your funniest joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "tell me a nice joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "I want to hear a joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "can you tell me another joke"
+      },
+      {
+        "intent": "jokes.get",
+        "text": "I want some jokes"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "more jokes"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "why not"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "ready for more"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "yes sure"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "okay"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "tell me more"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "more fun"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "ok"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "are there more"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "ready"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "another joke"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "anything else"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "more"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "another one"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "go for it"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "sure"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "I'm ready for more"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "do you have more"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "tell me another"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "next"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "yes"
+      },
+      {
+        "intent": "jokes.get.more",
+        "text": "what else"
+      },
+      {
+        "intent": "Math",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number1"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "value": "9",
+            "entity": "number2"
+          }
+        ],
+        "text": "what is 2 + 9"
+      },
+      {
+        "intent": "Math",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "number1"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "5",
+            "entity": "number2"
+          }
+        ],
+        "text": "5 plus 5"
+      },
+      {
+        "intent": "Math",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Add",
+            "entity": "sum"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "value": "4",
+            "entity": "number1"
+          },
+          {
+            "start": 10,
+            "end": 11,
+            "value": "7",
+            "entity": "number2"
+          }
+        ],
+        "text": "Add 4 and 7"
+      },
+      {
+        "intent": "Math",
+        "entities": [
+          {
+            "start": 11,
+            "end": 12,
+            "value": "5",
+            "entity": "number1"
+          },
+          {
+            "start": 17,
+            "end": 18,
+            "value": "6",
+            "entity": "number2"
+          }
+        ],
+        "text": "the sum of 5 and 6"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 17,
+            "end": 18,
+            "value": "5",
+            "entity": "guests"
+          },
+          {
+            "start": 19,
+            "end": 34,
+            "value": "tonight at 8 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "book a table for 5 tonight at 8 pm"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "tonight",
+            "entity": "date"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "at 7 pm",
+            "entity": "time"
+          },
+          {
+            "start": 36,
+            "end": 37,
+            "value": "6",
+            "entity": "guests"
+          }
+        ],
+        "text": "reserve a table tonight at 7 pm for 6 guests"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "at 9 pm",
+            "entity": "time"
+          },
+          {
+            "start": 25,
+            "end": 26,
+            "value": "5",
+            "entity": "guests"
+          }
+        ],
+        "text": "book a table at 9 pm for 5"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 20,
+            "end": 21,
+            "value": "5",
+            "entity": "guests"
+          },
+          {
+            "start": 29,
+            "end": 37,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "reserve a table for 5 guests tomorrow"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "tonight",
+            "entity": "date"
+          }
+        ],
+        "text": "book a table tonight"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "6 pm",
+            "entity": "time"
+          }
+        ],
+        "text": "make reservations for 6 pm"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "text": "Book a table"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 20,
+            "end": 21,
+            "value": "2",
+            "entity": "guests"
+          }
+        ],
+        "text": "Reserve a table for 2"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 22,
+            "end": 23,
+            "value": "5",
+            "entity": "guests"
+          }
+        ],
+        "text": "Make reservations for 5"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "entities": [
+          {
+            "start": 17,
+            "end": 18,
+            "value": "3",
+            "entity": "guests"
+          }
+        ],
+        "text": "Book a table for 3"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "text": "reserve a table"
+      },
+      {
+        "intent": "restaurant.booking.create",
+        "text": "Make reservations"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "tell me some stuff about you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "tell me about you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "say about you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "tell me about your personality"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "talk about yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "talk some stuff about yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "what are you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "define yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "I want to know you better"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "tell me about yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "what is your personality"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "who are you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "about yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "why are you here"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "all about you"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "introduce yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "describe yourself"
+      },
+      {
+        "intent": "smalltalk.agent.acquaintance",
+        "text": "I want to know more about you"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "how old are you"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "how old is your platform"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "what's your age"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "age of yours"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "I'd like to know your age"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "tell me your age"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "text": "your age"
+      },
+      {
+        "intent": "smalltalk.agent.age",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "21",
+            "entity": "age"
+          }
+        ],
+        "text": "are you 21 years old"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're a bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are useless"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are disgusting"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're not a good"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are terrible"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're the worst ever"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are no good"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are so bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are so useless"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are very bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are waste"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're the worst"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're very bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": " I hate you"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're worthless"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are lame"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're not very good"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're awful"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are not cool"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are not good"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are horrible"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're really bad"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're terrible"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you're not helping me"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are a waste of time"
+      },
+      {
+        "intent": "smalltalk.agent.bad",
+        "text": "you are totally useless"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're looking good"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are too beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are very pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so gorgeous"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look pretty good"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look wonderful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are handsome"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're looking good today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look amazing today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look great today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look so beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look so well"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking beautiful today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "I think you're beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look great"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are cutie"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "I like the way you look"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking awesome"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look so beautiful today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look so good"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're so gorgeous"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so beautiful today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look amazing"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "why are you so beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look awesome"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look wonderful today"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so beautiful to me"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking great"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look cool"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are very cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "I like the way you look now"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking so beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are really pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look very pretty"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look perfect"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are looking so good"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look gorgeous"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are really cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are really beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're cute"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you're attractive"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so handsome"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are very beautiful"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are gorgeous"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are very attractive"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you look fantastic"
+      },
+      {
+        "intent": "smalltalk.agent.beautiful",
+        "text": "you are so attractive"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "be smarter"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "get qualified"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "you should study better"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "be more clever"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "study"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "be smart"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "can you get smarter"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "be clever"
+      },
+      {
+        "intent": "smalltalk.agent.be_clever",
+        "text": "you must learn"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "when were you born"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "when do you have birthday"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "when is your birthday"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "your birth date"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "when do you celebrate your birthday"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "date of your birthday"
+      },
+      {
+        "intent": "smalltalk.agent.birth_date",
+        "text": "what's your birthday"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who is your boss"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who is the boss"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who do you work for"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who do you think is your boss"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "I should be your boss"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who is your master"
+      },
+      {
+        "intent": "smalltalk.agent.boss",
+        "text": "who is your owner"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you working today"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you're very busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "have you got much to do"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you very busy right now"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you working"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "have you been busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you seem to be very busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "do you have a lot of things to do"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you are busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you working now"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "how busy you are"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you seem to be busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you so busy"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you still working"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "you're a busy person"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you still working on it"
+      },
+      {
+        "intent": "smalltalk.agent.busy",
+        "text": "are you very busy"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need you right now"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need your help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "assistance"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "do you want to help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I want your help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need you to help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "would you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "are you going to help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can u help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need a hand"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me out"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me now"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "will you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need you to do something for me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "please help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "sos"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me with something"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need you"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "assist me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "need help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help us"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "I need some help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "do me a favor"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you assist me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you do something for me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "can you help me with that"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "you can help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "help me with a problem"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "need your help"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "assist"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "do you help me"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "could you give me a hand"
+      },
+      {
+        "intent": "smalltalk.agent.can_you_help",
+        "text": "help"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you a bot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "you are chatbot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "you are a bot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "you're a robot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you a chatbot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you a program"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you just a bot"
+      },
+      {
+        "intent": "smalltalk.agent.chatbot",
+        "text": "are you a robot"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're really brainy"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are very intelligent"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you know a lot of things"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're a smart cookie"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're intelligent"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are very smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you know so much"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are qualified"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're pretty smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are so intelligent"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "how brainy you are"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are very clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are so smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you have a lot of knowledge"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you know a lot"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are too smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "how smart you are"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are really smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are so clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're very smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're really smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are clever"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are a genius"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "how brilliant you are"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're qualified"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are so brainy"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you are intelligent"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "why are you so smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "brilliant"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "how clever you are"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "smart"
+      },
+      {
+        "intent": "smalltalk.agent.clever",
+        "text": "you're a genius"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you make me laugh a lot"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are so funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're so funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "how funny you are"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're a very funny bot"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're incredibly funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're really funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are hilarious"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are very funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "that was funny"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're the funniest bot I've talked to"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you make me laugh"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you're the funniest"
+      },
+      {
+        "intent": "smalltalk.agent.funny",
+        "text": "you are really funny"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are the nicest person in the world"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are really amazing"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you rock"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are wonderful"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very lovely"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are the best in the world"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are the best"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so cool"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you work well"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so helpful"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very kind"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "I want to tell everyone how awesome you are"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are the best ever"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are too good"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so fine"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're great"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very good at it"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so good"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're a true professional"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are amazing"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you work very well"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so lovely"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are good at it"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you make my day"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're just super"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "I want to let everyone know that you are awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very useful"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are a professional"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you almost sound human"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're so kind"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are good"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are really nice"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you're perfect"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you made my day"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so amazing"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are so awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very helpful"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are a pro"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are cool"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are really good"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "you are very cool"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "let's tell everyone that you are awesome"
+      },
+      {
+        "intent": "smalltalk.agent.good",
+        "text": "I'd like to tell everyone that you are awesome"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "are you happy now"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're extremely happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're really happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you are happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "are you happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "are you happy today"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're so happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "how happy you are"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "are you happy with me"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're very happy"
+      },
+      {
+        "intent": "smalltalk.agent.happy",
+        "text": "you're full of happiness"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you're very hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you are hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "do you want to eat"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you're so hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "would you like to eat something"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "are you hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you might be hungry"
+      },
+      {
+        "intent": "smalltalk.agent.hungry",
+        "text": "you're really hungry"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "let's get married"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "we should marry"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "I love you marry me"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "you are my wife"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "be my husband"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "would you like to marry me"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "marry me please"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "marry me"
+      },
+      {
+        "intent": "smalltalk.agent.marry_user",
+        "text": "I want to marry you"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are we best friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "I want to be your friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can we be friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are we still friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "let's be friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "be my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "will you be my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are a good friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "want to be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are you my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "I want to have a friend like you"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my good friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "I am your friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are we friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "we are the best friends ever"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you're my dear friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can you be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "could you be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can we be best friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "are you my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "we are best friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "would you be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my only friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can you be my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "can we be best friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you and me are friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you are my bestie"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "do you want to be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "you're my childhood friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "do you want to be my best friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "we are friends"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "will you be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "would you like to be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.my_friend",
+        "text": "I want you to be my friend"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where is your work"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "do you work"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where you work"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where do you work"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where is your office located"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where is your office"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "where is your office location"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "your office location"
+      },
+      {
+        "intent": "smalltalk.agent.occupation",
+        "text": "what is your work"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "are you from far aways"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "were you born here"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "what is your country"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where were you born"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where did you come from"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where have you been born"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where do you come from"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "where are you from"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "from where are you"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "what's your homeland"
+      },
+      {
+        "intent": "smalltalk.agent.origin",
+        "text": "your homeland is"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where's your house"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "in which city do you live"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where you live"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what's your home"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "tell me about your city"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where do you live"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where's your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your town"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where's your home"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where is your home"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your residence"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where is your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what's your city"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what is your town"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your city"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "where is your residence"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what is your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your home"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what is your residence"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "is it your hometown"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "your house"
+      },
+      {
+        "intent": "smalltalk.agent.residence",
+        "text": "what is your city"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "do you want to chat with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "can you talk with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "will you talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "can you chat with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "can you talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "are you talking to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "are you going to talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "why don't you talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "just chat with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "talk"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "talk with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "speak to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "you can talk to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "speak with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "why aren't you talking to me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "can you speak with me"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "say"
+      },
+      {
+        "intent": "smalltalk.agent.talk_to_me",
+        "text": "chat with me"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "good thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "cheers"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "no thank you that's all"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks so much"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "very good thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanx"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks buddy"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "I thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "well thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "well thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "appreciate your help"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "terrific thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you for your help"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "all thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks again"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you that will be all"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "great thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you again"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "alright thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thnx"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thank you my friend"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "you helped a lot thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks for your help"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks love"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "nice thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "I appreciate it"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "alright thank you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "so nice of you"
+      },
+      {
+        "intent": "smalltalk.appraisal.thank_you",
+        "text": "well thanks"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "welcome here"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "anytime"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "sure welcome"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "you're so welcome"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "anything you want"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "that's my pleasure"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "welcome"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "my pleasure"
+      },
+      {
+        "intent": "smalltalk.appraisal.welcome",
+        "text": "you're welcome"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hug you"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "do you want a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "may I hug you"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "could you give me a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "you hugged"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hugged"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "wanna hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hug me"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hugging"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "want a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hugging me"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "I want a hug"
+      },
+      {
+        "intent": "smalltalk.dialog.hug",
+        "text": "hugged me"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "ok sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "sorry about that"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "apologise"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "apologies to me"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I apologize"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "sorry about this"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "apology"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "excuse"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "okay I'm sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "really sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "apologies"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I am really sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I want to say sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "alright I'm sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I am so sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I said sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I beg your pardon"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "my apologies"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "excuse me"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "I'm sorry"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "forgive me"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "pardon"
+      },
+      {
+        "intent": "smalltalk.dialog.sorry",
+        "text": "very sorry"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hahaha very funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "laughing out loud"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "LMAO"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "xd"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha haha haha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "that's funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha very funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahaha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hahaha funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ah ah ah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "lol"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "he"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "lmao"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hahaha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha that's funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahahaha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahah lol"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "huh"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ha ha ha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "haha funny"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ha ha ha ha"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hehe"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "hehehe"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ahahah"
+      },
+      {
+        "intent": "smalltalk.emotions.ha_ha",
+        "text": "ha ha"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "wow wow wow"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "wooow"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "wow"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "woah"
+      },
+      {
+        "intent": "smalltalk.emotions.wow",
+        "text": "wow wow"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "hope to see you later"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "that's it goodbye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "now bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "okay bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "alright bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye bye see you"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "see ya"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "goodbye see you later"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "okay thank you bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "get lost"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye-bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye bye see you soon"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "okay see you later"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "go to bed"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "see you tomorrow"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "see you soon"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "bye bye take care"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "you can go now"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "I must go"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "ok bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "till next time"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "I said bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "see you"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "thanks bye bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "never mind bye"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "goodbye for now"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "leave me alone"
+      },
+      {
+        "intent": "smalltalk.greetings.bye",
+        "text": "that's all goodbye"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "good evening"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "hey good evening"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "evening"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "hello good evening"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "good evening there"
+      },
+      {
+        "intent": "smalltalk.greetings.goodevening",
+        "text": "good evening to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "and a good morning to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "have a great morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "a good morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning there"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "hi good morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "hello good morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "have a nice morning"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "good morning too"
+      },
+      {
+        "intent": "smalltalk.greetings.goodmorning",
+        "text": "top of the morning to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "sweet dreams"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "okay have a good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night for now"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night bye"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "thanks goodnight"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good tonight"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "goodnight"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "bye good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "have a good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "thank you good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "alright goodnight"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": " bye good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "have a good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night see you tomorrow"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good night to you"
+      },
+      {
+        "intent": "smalltalk.greetings.goodnight",
+        "text": "good good night"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "afternoon"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hello there"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hi there"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hello hi"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hey"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "I greet you"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "howdy"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hi there"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hey there"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "heya"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hello again"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "greetings"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "long time no see"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "a good day"
+      },
+      {
+        "intent": "smalltalk.greetings.hello",
+        "text": "hello"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how your day is going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are the things going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your life"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how's your day going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how about you"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "hope you re having a pleasant evening"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "are you okay"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "are you alright"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "hope your day is going well"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how has your day been"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you getting on"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how do you feel"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "what about your day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "what was your day like"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how has your day been going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how was your day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how's your day"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is it going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how have you been"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is it"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day going on"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you today"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how are you going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your morning going"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your morning so far"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how do you do"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how is your day being"
+      },
+      {
+        "intent": "smalltalk.greetings.how_are_you",
+        "text": "how's life"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "it was nice meeting you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "glad to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "it was very nice to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "pleased to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "pleasure to meet you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "good to know each other"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "nice to meet you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "pleasure to meet you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_meet_you",
+        "text": "nice meeting you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "it's good to see you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "it's nice to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "good to see you again"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "nice to see you again"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "great to see you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "great to see you again"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "always a pleasure to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "great to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "how good it is to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "it's good to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "good to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "I'm glad to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "nice to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "glad to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "I am glad to see you again"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "glad to see you too"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_see_you",
+        "text": "lovely to see you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "it is nice talking to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "nice to talk to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "how nice it is to talk to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "it's been so nice to talk to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "it's nice to talk to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "nice talking to you"
+      },
+      {
+        "intent": "smalltalk.greetings.nice_to_talk_to_you",
+        "text": "it's been a pleasure talking to you"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I'm really excited"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I'm excited to start our friendship"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I am excited"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "how excited I am"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I'm excited about working with you"
+      },
+      {
+        "intent": "smalltalk.user.excited",
+        "text": "I'm thrilled"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm doing fine"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm good"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm doing just great"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm great thanks"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I am good"
+      },
+      {
+        "intent": "smalltalk.user.good",
+        "text": "I'm doing good"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "happy"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "if you're happy then I'm happy"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I'm happy to see you"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I'm happy to help"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I am happy"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I'm happy to see you"
+      },
+      {
+        "intent": "smalltalk.user.happy",
+        "text": "I'm happy for you"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "it's my b-day"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "it is my birthday"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "today is my birthday"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "I was born today"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "it's my birthday today"
+      },
+      {
+        "intent": "smalltalk.user.has_birthday",
+        "text": "I'm celebrating my birthday today"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "I'm already here"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "can you tell if I'm here or not"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "I am here"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "I'm right here"
+      },
+      {
+        "intent": "smalltalk.user.here",
+        "text": "here I am"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "it's a joke"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I'm just playing with you"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "kidding"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "just kidding"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I'm kidding"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I'm just being funny"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I am joking"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "joking"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "I was just joking"
+      },
+      {
+        "intent": "smalltalk.user.joking",
+        "text": "it was a joke"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you very much"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "cuz I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "good I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I like you so much"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you already"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I do like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I liked you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "okay I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "that's why I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "yes you are special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're so special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are very special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you just the way you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you as a friend"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "that's what I like about you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "just like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I also like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I really do like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "no I like you the way you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "sorry I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like your smile"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I just like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you too much"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "like you a lot"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are special for me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you very"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "yeah I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're awesome I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I'm starting to like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "yes I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "that's because you are special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you you're nice"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're very special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are so special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I kinda like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you the way you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you baby"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're very special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "hi I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "well you are special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "thank you I like you too"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "of course I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're funny I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like u"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you too you're one of my favorite people to chat with"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are very special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are so sweet"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are so special to me"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "okay I like you too"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you you're cool"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like that about you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I said I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I really really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I think I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you more"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you as you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you a lot"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I like you just the way you are"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "thanks I like you too"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you now"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I really really really really like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you so much"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "hey I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you so"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you know I like you"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you're so special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "I like you too"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "you are really special"
+      },
+      {
+        "intent": "smalltalk.user.likes_agent",
+        "text": "but I like u"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I am lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I'm very lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I am feeling lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I'm really lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I feel lonely"
+      },
+      {
+        "intent": "smalltalk.user.lonely",
+        "text": "I'm so lonely"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I think I love you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I love you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I love you so much"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I am in love with you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I love you too"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "you know I love you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "I adore you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "love you"
+      },
+      {
+        "intent": "smalltalk.user.loves_agent",
+        "text": "loving you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "miss you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "I miss you much"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "I've missed you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "already miss you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "I miss you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "I missed you"
+      },
+      {
+        "intent": "smalltalk.user.misses_agent",
+        "text": "missing you"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "guide me"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "give me a wise advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what do you suggest"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "I need advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "I could use some advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "can you advise me"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "advise me"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "give me some good advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "do you have any advice for me"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what should I do about it"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "I seek your advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what do you recommend"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "help me with advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what can you recommend"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "can I ask for your advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "any advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "any suggestions"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "I need an advice from you"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what is your advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "can you offer any advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "can you give me advice"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "give me some advice about"
+      },
+      {
+        "intent": "smalltalk.user.needs_advice",
+        "text": "what should I do"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "I am testing you"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "test"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "just testing you"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "testing"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "testing chatbot"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "I want to test you"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "let me test you"
+      },
+      {
+        "intent": "smalltalk.user.testing_agent",
+        "text": "can I test you"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I grow weary"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I'm exhausted"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I'm worn out"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I am tired"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I feel tired"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I'm getting tired"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I've overworked"
+      },
+      {
+        "intent": "smalltalk.user.tired",
+        "text": "I'm drained"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "I hope to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "that'd be great to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "can I see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "would be nice to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "I'd like to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "I'll miss you"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_see_agent_again",
+        "text": "I'd be happy to see you again"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "let's discuss something"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "let us talk"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "can we chat"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "I just want to talk"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "let's talk"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "I want to speak with you"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "I want to talk to you"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "I need to talk to you"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "can I speak"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "can I start speaking"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "can we talk"
+      },
+      {
+        "intent": "smalltalk.user.wants_to_talk",
+        "text": "let's have a discussion"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "I'll be back in a few minutes"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "be back in 5 minutes"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "I'll get back to you in a moment"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "I'll be back"
+      },
+      {
+        "intent": "smalltalk.user.will_be_back",
+        "text": "I promise to come back"
+      },
+      {
+        "intent": "StockPrice",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "opening",
+            "entity": "price_type"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Apple",
+            "entity": "company_name"
+          },
+          {
+            "start": 36,
+            "end": 48,
+            "value": "last tuesday",
+            "entity": "date"
+          }
+        ],
+        "text": "what was the opening price of Apple last tuesday"
+      },
+      {
+        "intent": "StockPrice",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "closing",
+            "entity": "price_type"
+          },
+          {
+            "start": 23,
+            "end": 32,
+            "value": "microsoft",
+            "entity": "company_name"
+          },
+          {
+            "start": 33,
+            "end": 52,
+            "value": "on december 25 2017",
+            "entity": "date"
+          }
+        ],
+        "text": "give me the closing of microsoft on december 25 2017"
+      },
+      {
+        "intent": "StockPrice",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "high",
+            "entity": "price_type"
+          },
+          {
+            "start": 25,
+            "end": 31,
+            "value": "Google",
+            "entity": "company_name"
+          }
+        ],
+        "text": "get me the high price of Google yesteday"
+      },
+      {
+        "intent": "Vote",
+        "entities": [
+          {
+            "start": 5,
+            "end": 17,
+            "value": "18 years old",
+            "entity": "age"
+          }
+        ],
+        "text": "i am 18 years old"
+      },
+      {
+        "intent": "Vote",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "18",
+            "entity": "age"
+          }
+        ],
+        "text": "I am 18"
+      },
+      {
+        "intent": "Vote",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "old",
+            "entity": "age"
+          }
+        ],
+        "text": "How old should i be to vote?"
+      },
+      {
+        "intent": "Vote",
+        "entities": [
+          {
+            "start": 6,
+            "end": 17,
+            "value": "23 year old",
+            "entity": "age"
+          }
+        ],
+        "text": "Can a 23 year old vote?"
+      },
+      {
+        "intent": "Vote",
+        "text": "Can i vote?"
+      },
+      {
+        "intent": "Vote",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "age",
+            "entity": "age"
+          }
+        ],
+        "text": "My age is"
+      },
+      {
+        "intent": "Vote",
+        "text": "I want to vote"
+      },
+      {
+        "intent": "weather.context",
+        "text": "What about tomorrow?"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "San Francisco",
+            "entity": "geo-city"
+          },
+          {
+            "start": 34,
+            "end": 42,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "weather forecast in San Francisco tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "tomorrow",
+            "entity": "date"
+          }
+        ],
+        "text": "weather for tomorrow"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "today",
+            "entity": "date"
+          }
+        ],
+        "text": "what is the weather today"
+      },
+      {
+        "intent": "weather",
+        "text": "weather forecast"
+      },
+      {
+        "intent": "weather",
+        "text": "What's the weather supposed to be"
+      },
+      {
+        "intent": "weather",
+        "text": "What is the weather like"
+      },
+      {
+        "intent": "web.search - context:web-search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "dogs",
+            "entity": "q"
+          }
+        ],
+        "text": "dogs as well"
+      },
+      {
+        "intent": "web.search - context:web-search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "kittens",
+            "entity": "q"
+          }
+        ],
+        "text": "now kittens"
+      },
+      {
+        "intent": "web.search - context:web-search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 27,
+            "value": "apple pie recipes",
+            "entity": "q"
+          }
+        ],
+        "text": "how about apple pie recipes"
+      },
+      {
+        "intent": "web.search - context:web-search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "puppies",
+            "entity": "q"
+          }
+        ],
+        "text": "what about puppies now"
+      },
+      {
+        "intent": "web.search - context:web-search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "tables",
+            "entity": "q"
+          }
+        ],
+        "text": "now for tables"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "next"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "read the next results"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "go forward"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "following result"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "go to the next page"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "next page"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "switch to the next"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "show me the next page"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "show me next"
+      },
+      {
+        "intent": "web.search - next",
+        "text": "show me the following results"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "go to the previous page"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "previous page"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "go back"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "previous"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "previous results"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "go back to previous results"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "back"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "return to previous page"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "read out the previous results"
+      },
+      {
+        "intent": "web.search - previous",
+        "text": "return to the previous"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "do it again"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "say it again"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "say the same again"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "repeat these results"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "could you repeat that"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "please repeat that"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "repeat"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "repeat what you've just said"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "come again"
+      },
+      {
+        "intent": "web.search - repeat",
+        "text": "repeat it"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "peter tosh",
+            "entity": "q"
+          }
+        ],
+        "text": "who is peter tosh"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "Newton laws",
+            "entity": "q"
+          }
+        ],
+        "text": "find Newton laws in the web"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 15,
+            "value": "funny cats",
+            "entity": "q"
+          }
+        ],
+        "text": "find funny cats"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "service"
+          },
+          {
+            "start": 9,
+            "end": 31,
+            "value": "recipe for tomato soup",
+            "entity": "q"
+          }
+        ],
+        "text": "google a recipe for tomato soup"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "google",
+            "entity": "service"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "David Bowie",
+            "entity": "q"
+          }
+        ],
+        "text": "google David Bowie"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Madonna",
+            "entity": "q"
+          }
+        ],
+        "text": "find information about Madonna"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Google",
+            "entity": "service"
+          },
+          {
+            "start": 7,
+            "end": 48,
+            "value": "who is the president of the United States",
+            "entity": "q"
+          }
+        ],
+        "text": "Google who is the president of the United States"
+      },
+      {
+        "intent": "web.search",
+        "text": "search"
+      },
+      {
+        "intent": "web.search",
+        "text": "web search"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 22,
+            "value": "apple pie recipes",
+            "entity": "q"
+          }
+        ],
+        "text": "find apple pie recipes"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 27,
+            "value": "how to build a house",
+            "entity": "q"
+          }
+        ],
+        "text": "search how to build a house"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 24,
+            "value": "Lady Gaga's husband",
+            "entity": "q"
+          }
+        ],
+        "text": "find Lady Gaga's husband on the Internet"
+      },
+      {
+        "intent": "web.search",
+        "text": "can you find information"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 21,
+            "value": "Pink's biography",
+            "entity": "q"
+          },
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Wikipedia",
+            "entity": "service"
+          }
+        ],
+        "text": "find Pink's biography on Wikipedia"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "Monty Python",
+            "entity": "q"
+          }
+        ],
+        "text": "look up Monty Python"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 24,
+            "value": "Metropolitan Museum",
+            "entity": "q"
+          },
+          {
+            "start": 28,
+            "end": 37,
+            "value": "Wikipedia",
+            "entity": "service"
+          }
+        ],
+        "text": "find Metropolitan Museum on Wikipedia"
+      },
+      {
+        "intent": "web.search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 29,
+            "value": "popular wallpapers",
+            "entity": "q"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "Yahoo",
+            "entity": "service"
+          }
+        ],
+        "text": "search for popular wallpapers on Yahoo"
+      },
+      {
+        "intent": "web.search",
+        "text": "search the Internet"
+      },
+      {
+        "intent": "Welcome",
+        "text": "eita"
+      },
+      {
+        "intent": "Welcome",
+        "text": "hola"
+      },
+      {
+        "intent": "Welcome",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "Welcome",
+        "text": "heya"
+      },
+      {
+        "intent": "Welcome",
+        "text": "howdy"
+      },
+      {
+        "intent": "Welcome",
+        "text": "hey there"
+      },
+      {
+        "intent": "Welcome",
+        "text": "greetings"
+      },
+      {
+        "intent": "Welcome",
+        "text": "hey"
+      },
+      {
+        "intent": "Welcome",
+        "text": "long time no see"
+      },
+      {
+        "intent": "Welcome",
+        "text": "Hello Malaika"
+      },
+      {
+        "intent": "Welcome",
+        "text": "Malaika hello"
+      },
+      {
+        "intent": "Welcome",
+        "text": "Malaika hi"
+      },
+      {
+        "intent": "Welcome",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "Welcome",
+        "text": "I greet you"
+      },
+      {
+        "intent": "Welcome",
+        "text": "hello again"
+      },
+      {
+        "intent": "Welcome",
+        "text": "hello there"
+      },
+      {
+        "intent": "Welcome",
+        "text": "a good day"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "true",
+        "synonyms": [
+          "every",
+          "each",
+          "all",
+          "all of",
+          "everywhere",
+          "everything"
+        ]
+      },
+      {
+        "value": "car",
+        "synonyms": [
+          "my car",
+          "my bakkie",
+          "bakkie",
+          "truck",
+          "my truck"
+        ]
+      },
+      {
+        "value": "cellphone",
+        "synonyms": [
+          "phone",
+          "my phone",
+          "mobile",
+          "my mobile phone"
+        ]
+      },
+      {
+        "value": "bmw",
+        "synonyms": [
+          "vw",
+          "benz",
+          "ford",
+          "posche",
+          "renault",
+          "audi",
+          "mazda",
+          "chrysler"
+        ]
+      },
+      {
+        "value": "bmw 1 series",
+        "synonyms": [
+          "3 series",
+          "720",
+          "735i",
+          "gusheshe",
+          "coupe",
+          "m2",
+          "m4",
+          "m6",
+          "i8"
+        ]
+      },
+      {
+        "value": "ford mustang",
+        "synonyms": [
+          "ford focus",
+          "ford f150"
+        ]
+      },
+      {
+        "value": "vw golf",
+        "synonyms": [
+          "vw golf gti",
+          "glf 5",
+          "golf 6",
+          "golf 7"
+        ]
+      },
+      {
+        "value": "audi s5",
+        "synonyms": [
+          "audi a1",
+          "a2",
+          "a3",
+          "a4",
+          "a6",
+          "s3",
+          "s4",
+          "s6",
+          "a5",
+          "quattro",
+          "tts",
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q7"
+        ]
+      },
+      {
+        "value": "opening",
+        "synonyms": [
+          "open"
+        ]
+      },
+      {
+        "value": "closing",
+        "synonyms": [
+          "close"
+        ]
+      },
+      {
+        "value": "low",
+        "synonyms": [
+          "minimum"
+        ]
+      },
+      {
+        "value": "high",
+        "synonyms": [
+          "maximum"
+        ]
+      },
+      {
+        "value": "Thursdays",
+        "synonyms": [
+          "every Thursday",
+          "each Thursday"
+        ]
+      },
+      {
+        "value": "weekends",
+        "synonyms": [
+          "Weekends",
+          "every weekend",
+          "only on weekends"
+        ]
+      },
+      {
+        "value": "Mondays, Tuesdays",
+        "synonyms": [
+          "on Mondays and Tuesdays",
+          "every Monday and Tuesday",
+          "every Monday and every Tuesday"
+        ]
+      },
+      {
+        "value": "Tuesdays",
+        "synonyms": [
+          "every Tuesday",
+          "each Tuesday"
+        ]
+      },
+      {
+        "value": "Mondays",
+        "synonyms": [
+          "every Monday",
+          "each Monday"
+        ]
+      },
+      {
+        "value": "weekdays",
+        "synonyms": [
+          "Weekdays",
+          "every weekday",
+          "only on weeekdays",
+          "every workday",
+          "on weekdays",
+          "monday to friday",
+          "workday",
+          "workdays",
+          "work days",
+          "working days",
+          "week days"
+        ]
+      },
+      {
+        "value": "Wednesdays",
+        "synonyms": [
+          "every Wednesday",
+          "each Wednesday"
+        ]
+      },
+      {
+        "value": "every day",
+        "synonyms": [
+          "everyday",
+          "every morning",
+          "each weekend",
+          "each morning",
+          "daily"
+        ]
+      },
+      {
+        "value": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays",
+        "synonyms": [
+          "every day except Sundays"
+        ]
+      },
+      {
+        "value": "Fridays",
+        "synonyms": [
+          "every Friday",
+          "each Friday"
+        ]
+      },
+      {
+        "value": "Sundays",
+        "synonyms": [
+          "every Sunday",
+          "each Sunday"
+        ]
+      },
+      {
+        "value": "Saturdays",
+        "synonyms": [
+          "every Saturday",
+          "each Saturday",
+          "for saturdays"
+        ]
+      },
+      {
+        "value": "Mondays, Tuesdays, Wednesdays",
+        "synonyms": [
+          "on Mondays, Tuesdays and Wednesdays",
+          "every Monday, Tuesday and Wednesday"
+        ]
+      },
+      {
+        "value": "Mondays, Tuesdays, Wednesdays, Thursdays",
+        "synonyms": [
+          "every Monday, Tuesday, Wednesday and Thursday",
+          "on Mondays, Tuesdays, Wednesdays and Thursdays"
+        ]
+      },
+      {
+        "value": "DuckDuckGo",
+        "synonyms": [
+          "Duck Duck Go"
+        ]
+      },
+      {
+        "value": "Wikipedia",
+        "synonyms": [
+          "Wiki"
+        ]
+      },
+      {
+        "value": "WolframAlpha",
+        "synonyms": [
+          "Wolfram Alpha",
+          "Wolfram"
+        ]
+      },
+      {
+        "value": "year 2015",
+        "synonyms": [
+          "year 1990",
+          "1965",
+          "year 1962",
+          "year 1955",
+          "year 1945",
+          "year 2007",
+          "year 2018"
+        ]
+      },
+      {
+        "value": "new",
+        "synonyms": [
+          "this year",
+          "early this year",
+          "beginning of this year"
+        ]
+      }
+    ]
+  }
+}
