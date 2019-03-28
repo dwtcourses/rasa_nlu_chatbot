@@ -15,9 +15,9 @@ from rasa_core.interpreter import RasaNLUInterpreter
 
 logger = logging.getLogger(__name__)
 
-def train_dialogue(domain_file = 'malaika_domain.yml',
+def train_dialogue(domain_file = 'starFyre_domain.yml',
 					model_path = './models/dialogue',
-					training_data_file = './malaika/stories.md'):
+					training_data_file = './starFyre/stories.md'):
 					
 	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy()])
 	
@@ -33,7 +33,7 @@ def train_dialogue(domain_file = 'malaika_domain.yml',
 	return agent
 	
 def run_weather_bot(serve_forever=True):
-	interpreter = RasaNLUInterpreter('./models/nlu/default/malaikanlu')
+	interpreter = RasaNLUInterpreter('./models/nlu/default/starFyrenlu')
 	agent = Agent.load('./models/dialogue', interpreter = interpreter)
 	
 	if serve_forever:
