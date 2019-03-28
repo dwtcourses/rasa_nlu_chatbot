@@ -25,7 +25,7 @@ class ActionPlaceSearch(Action):
         radius = tracker.get_slot('number')		
 
         #retrieve google api key		
-        key = 'AIzaSyBM04t6DckU-P98B233fGSGLzX5HQTSJrw'
+        key = '*******************************'
 		
         #get user's current location		
         #get_origin = requests.post(
